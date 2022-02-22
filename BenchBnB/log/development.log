@@ -60,3 +60,14 @@ Processing by StaticPagesController#root as HTML
 Completed 200 OK in 1367ms (Views: 1363.5ms | ActiveRecord: 0.0ms)
 
 
+  [1m[35m (228.7ms)[0m  [1m[35mCREATE DATABASE "BenchBnB_development" ENCODING = 'unicode'[0m
+  ↳ bin/rails:9
+  [1m[35m (94.2ms)[0m  [1m[35mCREATE DATABASE "BenchBnB_test" ENCODING = 'unicode'[0m
+  ↳ bin/rails:9
+Started GET "/" for ::1 at 2022-02-22 14:40:32 -0500
+Processing by StaticPagesController#root as HTML
+  Rendering static_pages/root.html.erb within layouts/application
+  Rendered static_pages/root.html.erb within layouts/application (1.7ms)
+Completed 200 OK in 1358ms (Views: 1354.6ms | ActiveRecord: 0.0ms)
+
+
